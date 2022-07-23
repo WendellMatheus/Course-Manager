@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CourseListComponet } from './components/courses/course-list.component';
 import { StarComponet } from './components/stat/star.componet';
+import { ReplacePipe } from './components/pipe/replace.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     CourseListComponet,
-    StarComponet
+    StarComponet,
+    ReplacePipe
   ],
   imports: [
     BrowserModule,
