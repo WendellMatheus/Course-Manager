@@ -2,11 +2,11 @@ import { Component, Input, OnChanges } from "@angular/core";
 
 @Component({
   selector: 'app-star',
-  templateUrl: './star.componet.html',
-  styleUrls: ['./star.componet.css']
+  templateUrl: './star.component.html',
+  styleUrls: ['./star.component.css']
 })
 
-export class StarComponet implements OnChanges {
+export class StarComponent implements OnChanges {
 
   @Input()
 
